@@ -51,5 +51,11 @@ const pricingTiers = [
 ];
 
 export const Pricing = () => {
-  return null;
+  return <section className="py-24 ">
+    <div className="container">
+      <h2 className="section-title">Pricing</h2>
+      <p className="section-description mt-5">Free Forever, Upgarde for unlimited tasks, better security, exclusive teams</p>
+
+    </div>
+  </section>;
 };
